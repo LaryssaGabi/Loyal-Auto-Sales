@@ -1,0 +1,47 @@
+
+@media (max-width: 1200px) {
+    .logo {
+        width: 100%; /* Ajusta a largura da logo para ocupar toda a largura da tela */
+        max-width: none; /* Remove a largura máxima para a logo ocupar 100% da largura */
+    }
+
+    .black-porsche {
+        min-height: 200px; /* Ajusta a altura mínima da imagem de fundo */
+    }
+}
+
+@media (max-width: 768px) {
+    .caixa-principal {
+        max-width: 80%;
+    }
+
+    .caixa-principal {
+        max-width: 40%;
+        margin: 0 auto;
+    }
+    
+    .black-porsche {
+        position: fixed;
+        top: 0;
+        min-height: 100%;
+        min-width: 100%;
+        width: auto;
+        height: auto;
+    }
+    
+    .plano-fundo {
+        position: fixed;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+    }
+
+    button {
+        height: 40px;
+        width: 100%;
+    
+    }
+}
+
+
+
